@@ -479,7 +479,7 @@ def show(
         renderer.GradientBackgroundOn()
 
     # use FXXAA
-    renderer.UseFXAAOn()
+    #renderer.UseFXAAOn()  # disable because it causes black screenshots when in a container
 
     # add pts and locs
     renderer.AddActor(pts)
